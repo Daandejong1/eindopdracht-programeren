@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="javascript/javascript.js" defer></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Pizza</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+
+<body>
+  <main>
+    <section>
+      <h1> jouw Pizza</h1>
+      <h2></h2>
+    </section>
+
+    <section>
+      <div class="ingredienten">
+        <img class="hoofdPizza" src="images/pizzaMetNiks.png" alt="pizza met niks">
+        <img class="hidden" id="plaatjePaprika" src="images/paprika.png" alt="">
+        <img class="hidden" id="plaatjeTomaat" src="images/plakjesTomaat.png" alt="">
+        <img class="hidden" id="plaatjeChampignon" src="images/champignon.png" alt="">
+        <img class="hidden" id="plaatjeHam" src="images/ham.png" alt="">
+        <img class="hidden" id="plaatjeAnanas" src="images/ananas.png" alt="">
+        <img class="hidden" id="plaatjePepperoni" src="images/pepperoni.png" alt="">
+      </div>
+    </section>
+
+    <section>
+      <p>Voeg ingrediënten toe aan je pizza!</p>
+      <div>
+        <button id="a">paprika</button>
+        <button id="b"> Tomaat</button>
+        <button id="c">Champignon</button>
+        <button id="d"> ham</button>
+        <button id="e"> Ananas</button>
+        <button id="f">pepperoni</button>
+      </div>
+
+      <div class="Vinkje">
+        <img id="vak1" src="images/leegVakje.png" alt="leeg vakje">
+        <img id="vak2" src="images/leegVakje.png" alt="leeg vakje">
+        <img id="vak3" src="images/leegVakje.png" alt="leeg vakje">
+        <img id="vak4" src="images/leegVakje.png" alt="leeg vakje">
+        <img id="vak5" src="images/leegVakje.png" alt="leeg vakje">
+        <img id="vak6" src="images/leegVakje.png" alt="leeg vakje">
+      </div>
+    </section>
+      
+    <section>
+      <h3> stop de pizza in de oven</h3>
+      <div>
+        <img src="images/oven.png" alt="oven">
+        <p>klaar in </p>
+        <p id="tijdKlok">10</p>
+      </div>
+      <h4>start</h4>
+      <audio src="oven-timer-complete.mp3" id="OvenGeluidje"></audio>
+    </section>
+  </main>
+</body>
+</html>
